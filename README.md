@@ -15,7 +15,7 @@ example, we will choose port number 11140:
 
 4. Choose “settings” from the three horizontal lines menu at the top right and go to “Network
 Settings” (can also type in “proxy” in the search bar). If needed, select “clear data” under
-“cookies and site data” under “settings” (1).
+“cookies and site data” under “settings”.
 
 5. Select “Manual proxy configuration”
 
