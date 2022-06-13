@@ -1,5 +1,5 @@
 # HTTP Proxy
-Created a proxy that uses TCP sockets and intercepts all HTTP requests and responses between a browser and web server. The proxy redirects each GET request for a JPG image to one of two file paths containing a PNG image. Additionally, the proxy replaces a keyword within the HTML message of a web server response with another word. The proxy was developed with C/C++ on Linux. The proxy was tested on the following site which has 6 test cases using a Firefox browser: https://pages.cpsc.ucalgary.ca/~carey/CPSC441/assignment1.html
+Created a proxy that uses TCP sockets and intercepts all HTTP requests and responses between a browser and web server. The proxy redirects each GET request for a JPG image to one of two file paths containing a PNG image. Additionally, the proxy replaces a keyword within the HTML message of a web server response with another word. The proxy was developed with C/C++ on Linux. The proxy was tested on the following site which has 6 test cases using a Firefox browser: https://pages.cpsc.ucalgary.ca/~carey/CPSC441/assignment1.html. The following is a YouTube link for a demonstration: https://youtu.be/L1LATVm0cyY
 
 ## User Manual:
 1. Compile clown.cpp with the following command on a CPSC Linux server:
