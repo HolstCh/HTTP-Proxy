@@ -3,10 +3,12 @@ Created a proxy that uses TCP sockets and intercepts all HTTP requests and respo
 
 ## User Manual:
 1. Compile clown.cpp with the following command on a CPSC Linux server:
+
 g++ -o clown clown.cpp
 
 2. Execute the program with your choice of port number as the command line argument. For this
 example, we will choose port number 11140:
+
 ./clown 11140
 
 3. Open the Firefox browser on your choice of web page.
