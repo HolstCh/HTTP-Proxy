@@ -105,12 +105,12 @@ void client_connection(int* socket_fd)
       exit(1);
     }
 
-    ip = inet_ntoa(*((struct in_addr*)host->h_addr_list[0])); // conver to ASCII format to verify IP
+    ip = inet_ntoa(*((struct in_addr*)host->h_addr_list[0])); // convert to ASCII format to verify IP
     bcopy((char *) host->h_addr, (char *) &address.sin_addr.s_addr, host->h_length); // copy host ip address to s_addr
     printf("%s resolved to : %s\n" , HOST , ip); // h_addr_list[0] is h_addr which is first host IP address
 
     // socket creation for interface between proxy and web server
-    server = ::socket(AF_INET, SOCK_STREAM, 0); // create TCD socket with IPv4
+    server = ::socket(AF_INET, SOCK_STREAM, 0); // create TCP socket with IPv4
     if(server == -1)
     {
       printf("Failed to create socket, socket() failed\n"); 
